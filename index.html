@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Consultant Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="brand-name">THIS INTERIOR</h1>
+            <div class="navbar">
+                <ul>
+                    <li class="underlined-word">Home</li>
+                    <li>Collection</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="navbar-active">
+                <div class="toggle" onclick="togglesidebar()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+        </nav>
+        <div class="sidebar">
+            <div class="close-btn" onclick="closesidebar()">
+                <div class="crossline-1"></div>
+                <div class="crossline-2"></div>
+            </div>
+            <ul>
+                <li class="underlined-word">Home</li>
+                <li>Collection</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <main>
+            <div id="container-div">
+                <div class="content-section">
+                    <h1>Modern interior</h1>
+                    <p>A full-service residential & commercial interior design and staging company offering professional
+                        organizing & eco-services.</p>
+                    <h6>Read more <i class="fas fa-arrow-right"></i></h6>
+                </div>
+                <div class="image-section">
+                    <img src="./photo1.png" alt="">
+                    <div class="sub-section">
+                        <div class="designer">
+                            <div id="designer-profile">
+                            <img src="./photo2.png" alt="">
+                            <div>
+                                <h4>Aliza webber</h4>
+                                <h6>Interior designer</h6>
+                            </div>
+                        </div>
+
+                            <div class="sub-section-text">
+                                <h3>Designed in 2020 by<span><br></span> Aliza Webber</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <h6>created by DivyaPai03.devchallenges.io</h6>
+        </footer>
+    </div>
+</body>
+
+</html>
